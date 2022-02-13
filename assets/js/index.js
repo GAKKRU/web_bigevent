@@ -26,6 +26,7 @@ function getUserInfo() {
                 return alert('请求失败')
             }
             //渲染头像
+            
             renderAvatar(res.data)
         },
         //
